@@ -16,7 +16,6 @@ body {
 section {
   position: relative;
   width: 100%;
-  background: white;
   height: 80%;
 }
 
@@ -37,6 +36,7 @@ hr {
 
 h1 {
   font-size: 2.2em;
+  letter-spacing: .5px;
 }
 
 h6 {
@@ -93,3 +93,16 @@ h4 {
 td {
   height: 15px;
 } 
+
+table tr:nth-child(even) {
+  background-color: #f8f6ff;
+}
+
+table tr th {
+  background-color: #6C7AE0;
+  color: white;
+}
+
+#t4 {
+  margin: 1.5rem 0 0 0;
+}
